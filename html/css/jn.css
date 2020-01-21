@@ -1,0 +1,35 @@
+body{
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-QZV4bDUR1hN6QtzMoyf1W5OFB9dtJpLpZ7QBqwhEz3Fpmg2i&s');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+}
+li a{
+	display: block;
+	color: #000;
+	padding: 20% 10px;
+	text-decoration: none;
+
+}
+li a.active{
+	background-color: #F5D0A9;
+	color: white;
+
+}
+li a:hover:not(.active)
+{
+	background-color: #F5D0A9;
+	color: white;
+
+}
+
+

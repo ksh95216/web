@@ -1,0 +1,47 @@
+/*ubuntu의 web 디렉터리의 style.css 의 이름으로 저장*/
+body{
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL79q0ag_HMOfRfHtgn1C31FtKRdwgRJDsAf6bA9GtBEDAY3vd&s') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+ul, ol, li{list-style-type: none; margin:0; padding: 0;}
+ul.mymenu{}
+
+ul.mymenu > li {display: inline-block; width: 100px; padding: 5px 10px; text-align: center; position: relative; border: 5px;}
+ul.mymenu > li:hover ul.submenu{display: block;}
+
+ul.mymenu > li ul.submenu {display: none; position: absolute; top: 30px; left: 0;}
+ul.mymenu > li ul.submenu > li {display: inline-block; width: 80px; padding: 20px 10px; text-align: center;}
+ul.mymenu > li ul.submenu > li:hover{background: #58FAF4;}
+
+#login:hover {font-size: 120%;}
+#join:hover {font-size: 120%;}
+
+.lentcar
+{
+	overflow: hidden;
+	height: auto;
+	width: 400px;
+	
+}
+.stayhouse
+{
+	overflow: hidden;
+	height: auto;
+	width: 400px;
+	
+}
+
+{
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding:3px;
+}
+.down
+{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
